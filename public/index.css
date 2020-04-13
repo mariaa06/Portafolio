@@ -1,0 +1,104 @@
+
+html {
+    font-family: 'Sniglet';
+}
+.my-img {
+    width: 300px;
+    margin: 5rem 0 3rem 0;
+}
+.my-info {
+    background-color: #A3E4D7;
+    animation-duration: 2s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+.my-info p {
+    margin: 0 0 3rem 0;
+    font-size: 20px;
+}
+.my-info h1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+.btn {
+    margin: 0 0 4rem 0;
+}
+.footer {
+    background-color: white;
+}
+#container {
+    margin: 3rem 10rem 3rem 10rem;
+    font-size: 25px;
+    color: black !important;
+    display: block;
+}
+#container p{
+    color: white;
+}
+.card {
+    margin-top: 10rem;
+}
+.card1 {
+    background-color: #F1948A;
+    border-radius: 5px;
+}
+.card1:hover {
+    background-color: #F1948A;
+    -webkit-clip-path: inset(0.5rem);
+    clip-path: inset(0.5rem);
+}
+.card2 {
+    background-color: #D7BDE2;
+    border-radius: 5px;
+}
+.card2:hover {
+    background-color: #D7BDE2;
+    -webkit-clip-path: inset(0.5rem);
+    clip-path: inset(0.5rem);
+}
+.card3 {
+    background-color: #AED6F1;
+    border-radius: 5px;
+}
+.card3:hover {
+    background-color: #AED6F1;
+    -webkit-clip-path: inset(0.5rem);
+    clip-path: inset(0.5rem);
+}
+.card4 {
+    background-color: #ABEBC6;
+    border-radius: 5px;
+}
+.card4:hover {
+    background-color: #ABEBC6;
+    -webkit-clip-path: inset(0.5rem);
+    clip-path: inset(0.5rem);
+}
+.card-body {
+    margin: 0 0 1.7rem 0;
+    text-align: center;
+}
+.card-body h5{
+    margin: 7rem 7rem 1rem 7rem;
+    font-size: 2rem !important;
+    text-align: center;
+}
+.card-body h6 {
+    margin: 0 0 2rem 0;
+}
+.redes {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
